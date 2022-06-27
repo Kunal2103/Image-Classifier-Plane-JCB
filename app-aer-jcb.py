@@ -29,7 +29,7 @@ html_temp = """
 st.markdown(html_temp,unsafe_allow_html=True)
 st.markdown(f'<h1 style="color:#9CA3A6;font-size:24px;">{"Upload an Image"}</h1>', unsafe_allow_html=True)
 
-model = joblib.load(open('be-model.p','rb'))
+model = joblib.load(open('aer-jcb.p','rb'))
 
 
 uploaded_file = st.file_uploader("Choose a JPG / PNG format.......",type=['jpg','png'])
