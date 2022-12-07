@@ -4,3 +4,4 @@ streamlit
 scikit-image
 joblib
 sklearn
+scikit-learn
