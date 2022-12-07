@@ -3,4 +3,4 @@ pandas
 streamlit
 scikit-image
 joblib
-sklearn==1.0.2
+sklearn
